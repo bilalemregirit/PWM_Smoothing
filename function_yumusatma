@@ -1,6 +1,15 @@
-  int analog_input;
+  //KULLANIMI 
+  int analog_input; 
+  int analog_yumusatilmis;
+  int hassasiyet deger = 2;
+  int olubolge_deger = 1;
   
-  int yeni_deger;
+  
+  analog_yumusatilmis= yumusatma(analog_input, hassasiyet_deger, olubolge_deger);
+  
+  
+  
+  public int yeni_deger;
         public int yumusatma(int deger, int hassasiyet, int olu_bolge)
         {  
             // Bu fonksiyonun kullanımı için giriş için ve 
